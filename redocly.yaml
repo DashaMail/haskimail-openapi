@@ -1,0 +1,6 @@
+extends:
+  - recommended-strict
+rules:
+  info-license: off
+  # /messages/{messageid}/details и /messages/opens/{messageid} — так устроено само API Haskimail
+  no-ambiguous-paths: off

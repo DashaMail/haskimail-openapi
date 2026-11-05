@@ -1,0 +1,568 @@
+[
+ {
+  "method": "POST",
+  "path": "/message-streams/{streamid}/suppressions",
+  "params": [
+   "streamid",
+   "Suppressions"
+  ]
+ },
+ {
+  "method": "POST",
+  "path": "/message-streams/{streamid}/archive",
+  "params": [
+   "streamid"
+  ]
+ },
+ {
+  "method": "PUT",
+  "path": "/messages/inbound/{messageid}/bypass",
+  "params": [
+   "messageid"
+  ]
+ },
+ {
+  "method": "POST",
+  "path": "/domains",
+  "params": [
+   "Name"
+  ]
+ },
+ {
+  "method": "POST",
+  "path": "/triggers/inboundrules",
+  "params": [
+   "Rule"
+  ]
+ },
+ {
+  "method": "POST",
+  "path": "/message-streams",
+  "params": [
+   "MessageStreamType",
+   "Name",
+   "ServerID"
+  ]
+ },
+ {
+  "method": "POST",
+  "path": "/servers",
+  "params": [
+   "Color",
+   "DeliveryType",
+   "InboundDomain",
+   "InboundHookUrl",
+   "InboundSpamThreshold",
+   "Name",
+   "RawEmailEnabled",
+   "SmtpApiActivated",
+   "TrackLinks",
+   "TrackOpens"
+  ]
+ },
+ {
+  "method": "POST",
+  "path": "/templates",
+  "params": [
+   "AssociatedServerId",
+   "HtmlBody",
+   "Name",
+   "Subject",
+   "TextBody"
+  ]
+ },
+ {
+  "method": "POST",
+  "path": "/webhooks",
+  "params": [
+   "MessageStream",
+   "Triggers",
+   "Url"
+  ]
+ },
+ {
+  "method": "DELETE",
+  "path": "/domains/{domainid}",
+  "params": [
+   "domainid"
+  ]
+ },
+ {
+  "method": "DELETE",
+  "path": "/triggers/inboundrules/{triggerid}",
+  "params": [
+   "triggerid"
+  ]
+ },
+ {
+  "method": "DELETE",
+  "path": "/servers/{serverid}",
+  "params": [
+   "serverid"
+  ]
+ },
+ {
+  "method": "POST",
+  "path": "/message-streams/{streamid}/suppressions/delete",
+  "params": [
+   "streamid",
+   "Suppressions"
+  ]
+ },
+ {
+  "method": "DELETE",
+  "path": "/templates/{templateIdOrAlias}",
+  "params": [
+   "templateIdOrAlias"
+  ]
+ },
+ {
+  "method": "DELETE",
+  "path": "/webhooks/{webhookid}",
+  "params": [
+   "webhookid"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/stats/bounces",
+  "params": [
+   "fromdate",
+   "messagestream",
+   "todate"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/stats/clicks/browserfamilies",
+  "params": [
+   "fromdate",
+   "messagestream",
+   "todate"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/stats/clicks",
+  "params": [
+   "fromdate",
+   "messagestream",
+   "todate"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/stats/clicks/platforms",
+  "params": [
+   "fromdate",
+   "messagestream",
+   "todate"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/deliverystats",
+  "params": []
+ },
+ {
+  "method": "GET",
+  "path": "/domains/{domainid}",
+  "params": [
+   "domainid"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/messages/inbound/{messageid}/details",
+  "params": [
+   "messageid"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/messages/clicks/{messageid}",
+  "params": [
+   "count",
+   "messageid",
+   "messagestream",
+   "offset",
+   "recipient",
+   "tag"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/messages/opens/{messageid}",
+  "params": [
+   "count",
+   "messageid",
+   "messagestream",
+   "offset",
+   "recipient",
+   "tag"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/message-streams/{streamid}",
+  "params": [
+   "streamid"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/stats/opens",
+  "params": [
+   "fromdate",
+   "messagestream",
+   "todate"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/stats/opens/emailclients",
+  "params": [
+   "fromdate",
+   "messagestream",
+   "todate"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/stats/opens/platforms",
+  "params": [
+   "fromdate",
+   "messagestream",
+   "todate"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/messages/{messageid}/details",
+  "params": [
+   "messageid"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/stats",
+  "params": [
+   "fromdate",
+   "messagestream",
+   "todate"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/stats/sends",
+  "params": [
+   "fromdate",
+   "messagestream",
+   "todate"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/servers/{serverid}",
+  "params": [
+   "serverid"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/stats/spam",
+  "params": [
+   "fromdate",
+   "messagestream",
+   "todate"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/templates/{templateIdOrAlias}",
+  "params": [
+   "templateIdOrAlias"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/webhooks/{webhookid}",
+  "params": [
+   "webhookid"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/bounces",
+  "params": [
+   "count",
+   "emailFilter",
+   "fromdate",
+   "messageID",
+   "messagestream",
+   "offset",
+   "tag",
+   "todate",
+   "type"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/messages/clicks",
+  "params": [
+   "count",
+   "fromdate",
+   "messagestream",
+   "offset",
+   "recipient",
+   "tag",
+   "todate"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/domains",
+  "params": [
+   "count",
+   "offset"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/triggers/inboundrules",
+  "params": [
+   "count",
+   "offset"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/message-streams",
+  "params": []
+ },
+ {
+  "method": "GET",
+  "path": "/messages/opens",
+  "params": [
+   "count",
+   "fromdate",
+   "messagestream",
+   "offset",
+   "recipient",
+   "tag",
+   "todate"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/servers",
+  "params": [
+   "count",
+   "offset"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/message-streams/{streamid}/suppressions/dump",
+  "params": [
+   "streamid"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/templates",
+  "params": [
+   "count",
+   "offset"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/webhooks",
+  "params": []
+ },
+ {
+  "method": "PUT",
+  "path": "/templates/push",
+  "params": [
+   "DestinationServerID",
+   "PerformChanges",
+   "SourceServerID"
+  ]
+ },
+ {
+  "method": "PUT",
+  "path": "/messages/inbound/{messageid}/retry",
+  "params": [
+   "messageid"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/messages/inbound",
+  "params": [
+   "count",
+   "fromdate",
+   "fromemail",
+   "mailboxhash",
+   "offset",
+   "recipient",
+   "status",
+   "subject",
+   "todate"
+  ]
+ },
+ {
+  "method": "GET",
+  "path": "/messages",
+  "params": [
+   "count",
+   "fromdate",
+   "fromemail",
+   "messagestream",
+   "offset",
+   "recipient",
+   "subject",
+   "tag",
+   "todate"
+  ]
+ },
+ {
+  "method": "POST",
+  "path": "/email",
+  "params": [
+   "Attachments",
+   "Bcc",
+   "Cc",
+   "From",
+   "Headers",
+   "HtmlBody",
+   "MessageStream",
+   "Metadata",
+   "ReplyTo",
+   "Subject",
+   "Tag",
+   "TextBody",
+   "To",
+   "TrackLinks",
+   "TrackOpens"
+  ]
+ },
+ {
+  "method": "POST",
+  "path": "/email/batch",
+  "params": []
+ },
+ {
+  "method": "POST",
+  "path": "/email/batchWithTemplates",
+  "params": [
+   "Messages"
+  ]
+ },
+ {
+  "method": "POST",
+  "path": "/email/withTemplate",
+  "params": [
+   "Attachments",
+   "Bcc",
+   "Cc",
+   "From",
+   "Headers",
+   "MessageStream",
+   "Metadata",
+   "ReplyTo",
+   "Subject",
+   "Tag",
+   "TemplateAlias",
+   "TemplateId",
+   "TemplateModel",
+   "To",
+   "TrackLinks",
+   "TrackOpens"
+  ]
+ },
+ {
+  "method": "POST",
+  "path": "/message-streams/{streamid}/unarchive",
+  "params": [
+   "streamid"
+  ]
+ },
+ {
+  "method": "PATCH",
+  "path": "/message-streams/{streamid}",
+  "params": [
+   "streamid",
+   "Name"
+  ]
+ },
+ {
+  "method": "PUT",
+  "path": "/servers/{serverid}",
+  "params": [
+   "serverid",
+   "Color",
+   "InboundDomain",
+   "InboundHookUrl",
+   "InboundSpamThreshold",
+   "Name",
+   "RawEmailEnabled",
+   "SmtpApiActivated",
+   "TrackLinks",
+   "TrackOpens"
+  ]
+ },
+ {
+  "method": "PUT",
+  "path": "/templates/{templateIdOrAlias}",
+  "params": [
+   "templateIdOrAlias",
+   "HtmlBody",
+   "Name",
+   "Subject",
+   "TextBody"
+  ]
+ },
+ {
+  "method": "PUT",
+  "path": "/webhooks/{webhookid}",
+  "params": [
+   "webhookid",
+   "Triggers",
+   "Url"
+  ]
+ },
+ {
+  "method": "POST",
+  "path": "/templates/validate",
+  "params": [
+   "HtmlBody",
+   "Subject",
+   "TestRenderModel",
+   "TextBody"
+  ]
+ },
+ {
+  "method": "PUT",
+  "path": "/domains/{domainid}/verifyDkim",
+  "params": [
+   "domainid"
+  ]
+ },
+ {
+  "method": "PUT",
+  "path": "/domains/{domainid}/verifyspf",
+  "params": [
+   "domainid"
+  ]
+ },
+ {
+  "method": "POST",
+  "path": "/servers/{serverid}/tokens/new",
+  "params": [
+   "serverid",
+   "Name"
+  ]
+ }
+]
