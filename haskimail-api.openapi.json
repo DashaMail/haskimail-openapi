@@ -2580,7 +2580,7 @@
               "example": {
                 "ServerID": 11834,
                 "Name": "Заказы",
-                "MessageStreamType": "Transactional"
+                "MessageStreamType": "transactional"
               }
             }
           }
@@ -6720,17 +6720,7 @@
           },
           "Color": {
             "type": "string",
-            "description": "Цвет сервера в списке: `purple`, `blue`, `turquoise`, `green`, `red`, `orange`, `yellow` или `grey`. Регистр не важен, неизвестный цвет заменяется на `purple`.",
-            "enum": [
-              "purple",
-              "blue",
-              "turquoise",
-              "green",
-              "red",
-              "orange",
-              "yellow",
-              "grey"
-            ]
+            "description": "Цвет сервера в списке: `purple`, `blue`, `turquoise`, `green`, `red`, `orange`, `yellow` или `grey`. Регистр не важен, API принимает любой цвет; неизвестный заменяется на `purple`."
           },
           "SmtpApiActivated": {
             "type": "boolean",
@@ -6802,17 +6792,7 @@
           },
           "Color": {
             "type": "string",
-            "description": "Цвет сервера в списке: `purple`, `blue`, `turquoise`, `green`, `red`, `orange`, `yellow` или `grey`. Регистр не важен, неизвестный цвет заменяется на `purple`.",
-            "enum": [
-              "purple",
-              "blue",
-              "turquoise",
-              "green",
-              "red",
-              "orange",
-              "yellow",
-              "grey"
-            ]
+            "description": "Цвет сервера в списке: `purple`, `blue`, `turquoise`, `green`, `red`, `orange`, `yellow` или `grey`. Регистр не важен, API принимает любой цвет; неизвестный заменяется на `purple`."
           },
           "SmtpApiActivated": {
             "type": "boolean",
@@ -6986,10 +6966,10 @@
           },
           "MessageStreamType": {
             "type": "string",
-            "description": "Тип канала: `Transactional` или `Broadcasts`, регистр не важен.",
+            "description": "Тип канала: `transactional` или `broadcasts`, регистр не важен.",
             "enum": [
-              "Transactional",
-              "Broadcasts"
+              "transactional",
+              "broadcasts"
             ]
           }
         },
