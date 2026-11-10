@@ -2091,7 +2091,7 @@
                   "InboundSpamThreshold": 0,
                   "RawEmailEnabled": false,
                   "ApiTokens": [
-                    "8f3e0c7a-5b2d-4e1f-9a6c-3d7b1e0f2a94"
+                    "8f3e0c…2a94"
                   ],
                   "InboundAddress": "451d9b70cf9364d23ff6f9d51d870251@inbound.haskimail.ru"
                 }
@@ -2173,7 +2173,7 @@
                   "InboundSpamThreshold": 0,
                   "RawEmailEnabled": false,
                   "ApiTokens": [
-                    "8f3e0c7a-5b2d-4e1f-9a6c-3d7b1e0f2a94"
+                    "8f3e0c…2a94"
                   ],
                   "InboundAddress": "451d9b70cf9364d23ff6f9d51d870251@inbound.haskimail.ru"
                 }
@@ -2385,7 +2385,7 @@
                       "InboundSpamThreshold": 0,
                       "RawEmailEnabled": false,
                       "ApiTokens": [
-                        "8f3e0c7a-5b2d-4e1f-9a6c-3d7b1e0f2a94"
+                        "8f3e0c…2a94"
                       ],
                       "InboundAddress": "451d9b70cf9364d23ff6f9d51d870251@inbound.haskimail.ru"
                     }
@@ -2461,7 +2461,7 @@
                   "InboundSpamThreshold": 0,
                   "RawEmailEnabled": false,
                   "ApiTokens": [
-                    "8f3e0c7a-5b2d-4e1f-9a6c-3d7b1e0f2a94"
+                    "8f3e0c…2a94"
                   ],
                   "InboundAddress": "451d9b70cf9364d23ff6f9d51d870251@inbound.haskimail.ru"
                 }
@@ -6711,7 +6711,7 @@
             "items": {
               "type": "string"
             },
-            "description": "Серверные API-ключи."
+            "description": "Серверные API-ключи в виде масок: первые 6 и последние 4 символа. Открытое значение ключа отдаётся один раз — при выпуске."
           },
           "InboundAddress": {
             "type": "string",
